@@ -31,3 +31,22 @@ li{
     border: 3px solid chartreuse;
     border-radius: 10px;
 }
+
+/*tercera entrega*/
+
+#cartas{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(6,auto);
+    img{
+        margin:4px;
+    }
+}
+
+#best{
+    display: none;
+}
+
+label,input{
+    color: chartreuse;
+}
